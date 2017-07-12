@@ -66,6 +66,13 @@ console.log(likesMcDonalds, watchedMrRobot, ranMarathon, wrestledABear, lovesDon
 * Each value should be Null 
 **/
 
+var completedPrepClass = null;
+var traveledToMars = null;
+var scoredTDinNFL = null;
+
+console.log(completedPrepClass, traveledToMars, scoredTDinNFL);
+
+
 
 
 /*
