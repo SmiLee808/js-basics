@@ -173,9 +173,6 @@ console.log(stuff[3][1]);// should print the 3rd index (white,blue,yello) and th
 At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 */
 
-
-
-
 var fullName = firstName+" "+lastName;
 
 console.log(fullName);
@@ -202,20 +199,56 @@ console.log("Where is Cheryl From?",cherylFrom);
 * What is the remainder when you divide num1 by num2? Print your answer to the console.
 */
 
+var num1 = 6;
+var num2 = 10;
+var sum = num1 + num2;
+var difference = num2 - num1;
+var product = num2 * num1;
+var quotient = num2 / num1;
 
+
+console.log("sum", sum);
+console.log("difference", difference)
+console.log("product", product)
+console.log("quotient", quotient)
+
+var diffSum = difference - sum;
+console.log("diffSum", diffSum);
 /*
-* #10
-* Comparisons & Logic
-* Variables with the outcome of a comparison operation:
-*
-* Declare a variable named `isStrictlyEqual` and compare two strings "Tacocat" and "tacocat" using the strict equality.
-* Declare another variable named `isLooselyEqual` and compare the two strings "Tacocat" and "tacocat" using equality.
-* Print both variables to the console. If the answers are different, why? If not, why not? Write you answer two or three commented-out sentences.
 
-* Declare a variable named `sameNum` and compare a string "5" and a number 5 using strict equality.
-* Declare another variable named `sameNumba` and compare a string "5" and a number 5 using equality.
-* Print both variables to the console. If the answers are different, why? If not, why not? Write you answer two or three commented-out sentences.
-*/
+* #10 * Comparisons & Logic * Variables with the outcome of a comparison
+operation: * * Declare a variable named `isStrictlyEqual` and compare two
+strings "Tacocat" and "tacocat" using the strict equality. * Declare another
+variable named `isLooselyEqual` and compare the two strings "Tacocat" and
+"tacocat" using equality. * Print both variables to the console. If the
+answers are different, why? If not, why not? Write you answer two or three
+commented-out sentences.
+
+* Declare a variable named `sameNum` and compare a string "5" and a number 5
+using strict equality. * Declare another variable named `sameNumba` and
+compare a string "5" and a number 5 using equality. * Print both variables to
+the console. If the answers are different, why? If not, why not? Write you
+answer two or three commented-out sentences. */
+
+
+//example
+//var numNum = 5
+//var numString = "5"
+
+// in this example they will print the same 5 but this is two different data
+// types.  It is a number 5 and a String 5). This is an example of why coders
+// usually only use === (triple equals) to ensure that when doing arithmetic
+// that the data types are the same.
+
+
+var isStrictlyEqual ="Tacocat"==="tacocat";
+console.log(isStrictlyEqual);
+
+var isLooselyEqual = 5 === "5";
+console.log(isLooselyEqual);
+
+var isTrue = 67 === "67";
+console.log(isTrue);
 
 /*
 * Use the logical && or || and compare the following:
@@ -223,6 +256,27 @@ console.log("Where is Cheryl From?",cherylFrom);
 * 3>2 6>3 (use and)
 * 7>2 8<5 (use and)
 * Declare variables and print the results to the console. What are the differences between the three and why?*/
+
+
+
+var compareUseOr = 3>2 || 3<1;
+
+console.log("cuo", compareUseOr);
+
+var compareUseAnd = 3>2 && 6>3;
+
+console.log("cuA", compareUseAnd);
+
+var compareUseAnd2 = 7>2 && 8<5;
+
+console.log("cuA2", compareUseAnd2);
+
+// for OR
+
+
+
+
+
 
 
 
