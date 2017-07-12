@@ -36,6 +36,8 @@ var currentYear = 2017;
 var thatOnePrinceSong = 1;
 var tokyoOlympics = 2020;
 
+console.log(favoriteNumber, currentYear, thatOnePrinceSong, tokyoOlympics);
+
 /**
 * #3
 * Variables with a Boolean value
@@ -52,6 +54,8 @@ var wrestledABear = false;
 var lovesDonuts = true;
 var readHarryPotter = true;
 
+console.log(likesMcDonalds, watchedMrRobot, ranMarathon, wrestledABear, lovesDonuts,readHarryPotter);
+
 
 /**
 * #4
@@ -61,6 +65,7 @@ var readHarryPotter = true;
 *
 * Each value should be Null 
 **/
+
 
 
 /*
