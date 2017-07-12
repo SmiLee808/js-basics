@@ -6,21 +6,42 @@
 var pet = "sebastian the pug";
 console.log(pet);
 
-/**
-* #1
-* Variables with a String value
-*
-* Declare variables named `firstName`, `lastName`, `birthPlace`, `favoriteFood`, `bestMovie`, `favLoveSong`, `cuteAnimal`, `favColor`, `favSneaker`, `coffeeShop`.
-* Assign values to these variables with your own data.
-*
-* Each value should be a String. 
-**/
+/** * #1 * Variables with a String value * * Declare variables named
+`firstName`, `lastName`, `birthPlace`, `favoriteFood`, `bestMovie`,
+`favLoveSong`, `cuteAnimal`, `favColor`, `favSneaker`, `coffeeShop`. * Assign
+values to these variables with your own data. * * Each value should be a
+String.  **/
 
 var firstName = "Cheryl";
 var lastName = "Lee";
 var birthPlace = "Hawaii";
+var favoriteFood = "Pizza";
+// This is a hard code that means it is set. When it is together we are declaring and assigning.
 
-console.log("First Name", firstName, "Last Name", lastName, "Born in", birthPlace);
+console.log("First Name", firstName, "Last Name", lastName, "Born in", birthPlace, "Food", favoriteFood);
+
+//or
+
+var bestMovie;
+var favLoveSong;
+var cuteAnimal;
+var favColor;
+var favSneaker;
+var coffeeShop;
+
+bestMovie = "Galaxy";
+favLoveSong = "So Amazing";
+cuteAnimal = "Puppies";
+favColor = "purple";
+
+// Usually this means that the variable info can be changed.
+// for example if you do: 
+// var firstName;
+// firstName = Betty;  
+// this will overide your original hard code. 
+
+
+console.log(bestMovie, favLoveSong, cuteAnimal);
 
 /**
 * #2
@@ -31,9 +52,11 @@ console.log("First Name", firstName, "Last Name", lastName, "Born in", birthPlac
 * Each value should be a Number
 **/
 
+// Note: /**   this tells the compter that the things betweem these two symbols are commeted out **/
+
 var favoriteNumber = 11;
 var currentYear = 2017;
-var thatOnePrinceSong = 1;
+var thatOnePrinceSong = 1999;
 var tokyoOlympics = 2020;
 
 console.log(favoriteNumber, currentYear, thatOnePrinceSong, tokyoOlympics);
@@ -81,7 +104,7 @@ console.log(completedPrepClass, traveledToMars, scoredTDinNFL);
 */
 
 //null are values that show non-values.  Null represents not an object.  Undefined means there will be a value but it has not been assigned.
-// objects are variables but can contain many values.
+// objects are variables but can contain many values. Null is purposfly blank there will not be a value.  
 
 /**
 * #6
@@ -97,8 +120,14 @@ console.log(completedPrepClass, traveledToMars, scoredTDinNFL);
 
 var plateLunch = ["Squid Luau", "Poke Bowl", "CPK"];
 var fruitBasket = ["Banana", "Orange", "Strawberry"];
+var lotteryResult = [5, 25, 9, 86, 14];
+var duets = [["sunny and cher", "Huey Lewis and the News"], ["Ben and Myla", "C and K"]];
+// nested arrays contain 
+console.log (duets);
 
-console.log(plateLunch,fruitBasket);
+var mixPlate = ["fish", 7, []];
+
+console.log(plateLunch,fruitBasket,lotteryResult, mixPlate);
 
 /*7
 * Accessing Values in Arrays
@@ -110,6 +139,24 @@ What is the index position of carrot cake? Please print this item to the console
 What is the index position of lemon bars? Please print this item to the console.
 */
 
+
+
+var stringLength = 5;
+var indexPositionCarrotCake = 0;
+var indexPositionLemonBars = 4;
+
+console.log("string length", stringLength, "Carrot Cake position", indexPositionCarrotCake, "Lemon Bar Position", indexPositionLemonBars);
+
+
+
+//note use brackets to tell you what index to print.
+var partyList = ["carrot cake", "rocky road ice cream", "mochiko chicken", "orange tang", "lemon bars"];
+
+//to print lemon bars
+console.log(partyList[2]);
+
+var stuff = [24, "Timmy", "Wheeler Middle School", ["white", "blue", "yellow"]];
+console.log(stuff[3][1]);// should print the 3rd index (white,blue,yello) and then 1st index in that BLUE
 
 
 /*
@@ -126,6 +173,20 @@ What is the index position of lemon bars? Please print this item to the console.
 At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 */
 
+
+
+
+var fullName = firstName+" "+lastName;
+
+console.log(fullName);
+
+
+var whereFromCity = "Honolulu";
+var whereFrom = "Hawaii";
+
+var cherylFrom = whereFromCity+", "+whereFrom;
+
+console.log("Where is Cheryl From?",cherylFrom);
 
 
 /*
