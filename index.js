@@ -16,6 +16,11 @@ console.log(pet);
 * Each value should be a String. 
 **/
 
+var firstName = "Cheryl";
+var lastName = "Lee";
+var birthPlace = "Hawaii";
+
+console.log("First Name", firstName, "Last Name", lastName, "Born in", birthPlace);
 
 /**
 * #2
@@ -26,6 +31,10 @@ console.log(pet);
 * Each value should be a Number
 **/
 
+var favoriteNumber = 11;
+var currentYear = 2017;
+var thatOnePrinceSong = 1;
+var tokyoOlympics = 2020;
 
 /**
 * #3
@@ -35,6 +44,13 @@ console.log(pet);
 *
 * Each value should be a Boolean
 **/
+
+var likesMcDonalds = true;
+var watchedMrRobot = false; 
+var ranMarathon = false;
+var wrestledABear = false; 
+var lovesDonuts = true;
+var readHarryPotter = true;
 
 
 /**
