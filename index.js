@@ -80,6 +80,8 @@ console.log(completedPrepClass, traveledToMars, scoredTDinNFL);
 * What is the difference between null and undefined? Type your answer in two or three commented-out sentences.
 */
 
+//null are values that show non-values.  Null represents not an object.  Undefined means there will be a value but it has not been assigned.
+// objects are variables but can contain many values.
 
 /**
 * #6
@@ -93,7 +95,10 @@ console.log(completedPrepClass, traveledToMars, scoredTDinNFL);
 * Declare a variable named `mixPlate` and assign it an array containing different data types of your choosing.
 **/
 
+var plateLunch = ["Squid Luau", "Poke Bowl", "CPK"];
+var fruitBasket = ["Banana", "Orange", "Strawberry"];
 
+console.log(plateLunch,fruitBasket);
 
 /*7
 * Accessing Values in Arrays
