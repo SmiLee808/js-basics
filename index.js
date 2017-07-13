@@ -1,10 +1,11 @@
+
 /* Variables and Data Types */
 /*Console.log each variable and test your code in the terminal using the Node REPL*/
 
 /*i.e.*/
 
 var pet = "sebastian the pug";
-console.log(pet);
+//console.log(pet);
 
 /** * #1 * Variables with a String value * * Declare variables named
 `firstName`, `lastName`, `birthPlace`, `favoriteFood`, `bestMovie`,
@@ -18,7 +19,7 @@ var birthPlace = "Hawaii";
 var favoriteFood = "Pizza";
 // This is a hard code that means it is set. When it is together we are declaring and assigning.
 
-console.log("First Name", firstName, "Last Name", lastName, "Born in", birthPlace, "Food", favoriteFood);
+//console.log("First Name", firstName, "Last Name", lastName, "Born in", birthPlace, "Food", favoriteFood);
 
 //or
 
@@ -41,7 +42,7 @@ favColor = "purple";
 // this will overide your original hard code. 
 
 
-console.log(bestMovie, favLoveSong, cuteAnimal);
+//console.log(bestMovie, favLoveSong, cuteAnimal);
 
 /**
 * #2
@@ -53,13 +54,13 @@ console.log(bestMovie, favLoveSong, cuteAnimal);
 **/
 
 // Note: /**   this tells the compter that the things betweem these two symbols are commeted out **/
-
+ 
 var favoriteNumber = 11;
 var currentYear = 2017;
 var thatOnePrinceSong = 1999;
 var tokyoOlympics = 2020;
 
-console.log(favoriteNumber, currentYear, thatOnePrinceSong, tokyoOlympics);
+//console.log(favoriteNumber, currentYear, thatOnePrinceSong, tokyoOlympics);
 
 /**
 * #3
@@ -77,7 +78,7 @@ var wrestledABear = false;
 var lovesDonuts = true;
 var readHarryPotter = true;
 
-console.log(likesMcDonalds, watchedMrRobot, ranMarathon, wrestledABear, lovesDonuts,readHarryPotter);
+//console.log(likesMcDonalds, watchedMrRobot, ranMarathon, wrestledABear, lovesDonuts,readHarryPotter);
 
 
 /**
@@ -93,7 +94,7 @@ var completedPrepClass = null;
 var traveledToMars = null;
 var scoredTDinNFL = null;
 
-console.log(completedPrepClass, traveledToMars, scoredTDinNFL);
+//console.log(completedPrepClass, traveledToMars, scoredTDinNFL);
 
 
 
@@ -123,11 +124,11 @@ var fruitBasket = ["Banana", "Orange", "Strawberry"];
 var lotteryResult = [5, 25, 9, 86, 14];
 var duets = [["sunny and cher", "Huey Lewis and the News"], ["Ben and Myla", "C and K"]];
 // nested arrays contain 
-console.log (duets);
+//console.log (duets);
 
 var mixPlate = ["fish", 7, []];
 
-console.log(plateLunch,fruitBasket,lotteryResult, mixPlate);
+//console.log(plateLunch,fruitBasket,lotteryResult, mixPlate);
 
 /*7
 * Accessing Values in Arrays
@@ -145,7 +146,7 @@ var stringLength = 5;
 var indexPositionCarrotCake = 0;
 var indexPositionLemonBars = 4;
 
-console.log("string length", stringLength, "Carrot Cake position", indexPositionCarrotCake, "Lemon Bar Position", indexPositionLemonBars);
+//console.log("string length", stringLength, "Carrot Cake position", indexPositionCarrotCake, "Lemon Bar Position", indexPositionLemonBars);
 
 
 
@@ -153,10 +154,10 @@ console.log("string length", stringLength, "Carrot Cake position", indexPosition
 var partyList = ["carrot cake", "rocky road ice cream", "mochiko chicken", "orange tang", "lemon bars"];
 
 //to print lemon bars
-console.log(partyList[2]);
+//console.log(partyList[2]);
 
 var stuff = [24, "Timmy", "Wheeler Middle School", ["white", "blue", "yellow"]];
-console.log(stuff[3][1]);// should print the 3rd index (white,blue,yello) and then 1st index in that BLUE
+//console.log(stuff[3][1]);// should print the 3rd index (white,blue,yello) and then 1st index in that BLUE
 
 
 /*
@@ -175,7 +176,7 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 
 var fullName = firstName+" "+lastName;
 
-console.log(fullName);
+//console.log(fullName);
 
 
 var whereFromCity = "Honolulu";
@@ -183,7 +184,7 @@ var whereFrom = "Hawaii";
 
 var cherylFrom = whereFromCity+", "+whereFrom;
 
-console.log("Where is Cheryl From?",cherylFrom);
+//console.log("Where is Cheryl From?",cherylFrom);
 
 
 /*
@@ -207,13 +208,13 @@ var product = num2 * num1;
 var quotient = num2 / num1;
 
 
-console.log("sum", sum);
-console.log("difference", difference)
-console.log("product", product)
-console.log("quotient", quotient)
+//console.log("sum", sum);
+//console.log("difference", difference)
+//console.log("product", product)
+//console.log("quotient", quotient)
 
 var diffSum = difference - sum;
-console.log("diffSum", diffSum);
+//console.log("diffSum", diffSum);
 /*
 
 * #10 * Comparisons & Logic * Variables with the outcome of a comparison
@@ -242,13 +243,13 @@ answer two or three commented-out sentences. */
 
 
 var isStrictlyEqual ="Tacocat"==="tacocat";
-console.log(isStrictlyEqual);
+//console.log(isStrictlyEqual);
 
 var isLooselyEqual = 5 === "5";
-console.log(isLooselyEqual);
+//console.log(isLooselyEqual);
 
 var isTrue = 67 === "67";
-console.log(isTrue);
+//console.log(isTrue);
 
 /*
 * Use the logical && or || and compare the following:
@@ -261,54 +262,71 @@ console.log(isTrue);
 
 var compareUseOr = 3>2 || 3<1;
 
-console.log("cuo", compareUseOr);
+//console.log("cuo", compareUseOr);
 
 var compareUseAnd = 3>2 && 6>3;
 
-console.log("cuA", compareUseAnd);
+//console.log("cuA", compareUseAnd);
 
 var compareUseAnd2 = 7>2 && 8<5;
 
-console.log("cuA2", compareUseAnd2);
+//console.log("cuA2", compareUseAnd2);
 
-// for OR
-
-
-
+// for Or.  Either needs to be true for it to be true.  For And both are need
+// to be true.  For And2 both are not true which is why it is false.
 
 
-
-
-
-/*
-* #11
-* Assignments
-* Variables with the outcome of an assignment operation:
-*
-* Declare a variable named `myBox` and assign it with a number of your choosing.
-* This variable will be used to store multiple types of values as we assign them to show how variables in JavaScript are not bound to a single data type
-* and can change values.
+/* * #11 * Assignments * Variables with the outcome of an assignment
+operation: * * Declare a variable named `myBox` and assign it with a number of
+your choosing. * This variable will be used to store multiple types of values
+as we assign them to show how variables in JavaScript are not bound to a
+single data type * and can change values.
 
 * Write 5 different assignment statements and `console.log()` the value of the variable after each
 * assignment statement to show the current value. REMEMBER: an assignment is DIFFERENT from a declaration.
 */
 
-/*
-* Final Boss 
-* Additional exercises designed to further challenge you and give you a jump start on the next topic that'll be covered.
-* Function - A block of code designed to perform a particular task. It allows you to reuse code.
-*
-* Declare a function named `bakePie` which has a single parameter 'ingredient'.
-* When the function is invoked, it should return a string, "Today's special ingredient pie." Where ingredient will be the value that you pass into the function.
-* For example, if the value is `blueberry`, it should return "Today's special blueberry pie."
-* Declare a variable 'pieResult' and assign it to the function call.
-* Console.log the variable to see the result.*/
+var myBox = 10;
+
+myBox+= 5;
+
+//console.log("adding 5 is", myBox);
+
+myBox-= 5;
+
+//console.log("subtracting 5 is", myBox);
+
+myBox*= 5;
+
+//console.log("Mulitply by 5 is", myBox);
+
+myBox/= 5;
+
+//console.log("Divided by 5 is", myBox);
 
 
-/*
-* Declare a Function named `jump` which has a single parameter, `height`.
-* This function should return a string, "You jumped height feet high!" Where height will be the value that you pass into the function.
-* For example, if the value is 9, it should return "You jumped 9 feet high!"
+/* * Final Boss  * Additional exercises designed to further challenge you and
+give you a jump start on the next topic that'll be covered. * Function - A
+block of code designed to perform a particular task. It allows you to reuse
+code. * * Declare a function named `bakePie` which has a single parameter
+'ingredient'. * When the function is invoked, it should return a string,
+"Today's special ingredient pie." Where ingredient will be the value that you
+pass into the function. * For example, if the value is `blueberry`, it should
+return "Today's special blueberry pie." * Declare a variable 'pieResult' and
+assign it to the function call. * Console.log the variable to see the
+result.*/
+
+
+
+
+
+
+
+
+/* * Declare a Function named `jump` which has a single parameter, `height`. *
+This function should return a string, "You jumped height feet high!" Where
+height will be the value that you pass into the function. * For example, if
+the value is 9, it should return "You jumped 9 feet high!"
 
 
 
@@ -321,4 +339,81 @@ console.log("cuA2", compareUseAnd2);
 * This function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 */
+
+
+
+//UNIT - FUNCTIONS
+
+//Functions
+
+function greeting(){
+	console.log("hello");
+}		
+
+function wakeUp(){
+	console.log("I woke up");
+}
+
+function brushTeeth(){
+	console.log("BrushTeeth");
+}
+
+wakeUp();
+brushTeeth();
+greeting();
+
+
+
+
+//functions with parameters
+
+function greeting(names){
+	console.log(names)
+}		
+
+greeting("Cheryl");
+greeting("Natalie");
+
+//envoking the paramater twice with different things
+
+function driving(car){
+	console.log(car);
+}		
+
+driving("Toyota Carolla");
+driving("Jeep Wrangler")
+
+//parameters are places holders for paramater ie names and car.
+
+//functions with two parameters
+//insert picture
+
+function addition (a, b){
+	console.log(a + b);
+}
+
+addition(1, 3);
+addition("Christi", "Natalie");
+
+
+
+function subtraction (a, b){
+	return a - b;
+console.log(subtraction(7, 2));
+	
+}
+
+var sub = subtraction (6,3);
+var sub2 = subtraction (10,2);
+
+console.log("Sub1", sub)
+console.log("Sub2", sub2)
+
+function multiplication (x, y){
+	var doSomething = x*y;
+	return doSomething;
+}
+
+console.log(multiplication(4,5));
+console.log(multiplication(3,10));
 
